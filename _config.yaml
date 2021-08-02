@@ -1,154 +1,194 @@
 # Profile section
 profile:
-  first_name: Rodolfo
-  last_name: Ferro
-  picture: https://cdn.glitch.com/88028f3b-2a37-4207-9b84-e56ad97a9d3d%2Frodo_2021.png?v=1622471953248   # Hosted picture
+  first_name: Rogelio
+  last_name: Padida Jr.
+  picture: https://media-exp1.licdn.com/dms/image/C4E03AQHRKawqkEWNzQ/profile-displayphoto-shrink_800_800/0/1534966565241?e=1633564800&v=beta&t=2E3zrYJBfDLFbooJAtjE08IlQYvXHWe4SKeBQn6sft4  # Hosted picture
   # picture: static/img/rodo_2021.png  # Local picture
   contact:
-    address_one: León, Guanajuato
+    address_one: 21 Atis Road, Potrero Malabon City, 1475
     address_two:
-    phone: (477) ASK-4-IT!
-  email: rodolfoferroperez@gmail.com
+    phone: (+63) 923-662-901 | (+63) 926-722-2164
+  email: rojpadida@gmail.com
   description: |
-    I am a Machine Learning Engineer at Zetalabs S.L. (Spain) and I also collaborate as a Digital Sherpa for the national education program "Innovacción Virtual" with Microsoft Mexico.
-    
-    I've worked as a Python Dev at CloudLinux and served as a research assistant in applied AI at the Mathematics Research Center (CIMAT), part of the National Consortium of Science and Technology (CONACYT) in Mexico. 
-    
-    I participated in a research project during a summer internship (2017) at the Aspuru-Guzik Research Group, in the Department of Chemistry and Chemical Biology at Harvard University, working with applied machine learning for molecular properties prediction and calibration. 
-    
-    I am (currently) a Google Developer Expert in Machine Learning.
+    Experienced Software Engineer with a demonstrated history of working in the information technology and services industry. 
+    Skilled in Security Analysis, Python, Ruby, Django, Flask and Ruby on Rails Framework, Front End Development, 
+    AS400 Administration, and Windows Server. 
+    Strong engineering professional with a Bachelor's focused in Computer Engineering from Polytechnic University of the Philippines.
 
 
 # Social section
 social:
-  website: https://rodolfoferro.xyz
-  github: https://github.com/RodolfoFerro/
-  twitter: https://twitter.com/FerroRodolfo/
-  linkedin: https://www.linkedin.com/in/rodolfoferro/
-  facebook:
-  dev: https://dev.to/rodolfoferro
-  medium: https://medium.com/@FerroRodolfo
-
+  website: https://rojpadida.herokuapp.com
+  github: https://github.com/agentroj/
+  twitter: https://twitter.com/Rojpadida/
+  linkedin: https://www.linkedin.com/in/rojpadidajr
+  facebook: https://www.facebook.com/rojpadida
+  dev: https://dev.to/rojpadida
+  medium: https://medium.com/@RojPadida
 
 # Experience section
 experience:
   item7:
-    position: ML Engineer
-    company: Zetalabs S.L.
-    from: March 2021
-    to: Present
+    position: Backend Application DeveloperS
+    company: iSupport Worldwide Inc.
+    from: January 2021
+    to: June 2021
     description: >
-      Leading the AI development team. Contributing with computer vision tasks for company's product.
-    link: http://codeandomexico.org/
+      Developed, delivered, and maintained the back end of web-based applications for our customers and for  software products. 
+      The Back-End Application Developer will provide technical collaboration in the enhancement and maintenance of new and existing products using 
+      Python, Flask, FastAPI, and other back-end web application technologies. Developed scalable back-end applications that meet complex business requirements using Python, Flask, FastAPI, and other back-end technologies
+      Developed APIs and documented codes changes. Wrote front-end unit tests and resolve issues and following the software development lifecycle.
+      Collaborated with QA testers to identify and solve issues during testing phase. Developed and documented deployment and CI/CD process and provided maintenance and support as needed.
   item6:
-    position: Community Leader
-    company: Codeando México
-    from: September 2019
-    to: February 2021
+    position: Online AI Instructor
+    company: Kredo IT Abroad Inc
+    from: October 2020
+    to: July 2021
     description: >
-      Codeando México mainly focuses on executing activities that connect society and governments, the usage of technologies and internet-based solutions for civic purposes.
-    link: http://codeandomexico.org/
+      Taught AI Standard courses remotely to Japanese students which includes basic Python, OOP, Flask, MySQL, Docker and Git.
   item5:
-    position: Open Data Coordinator
-    company: LAB León / General Direction of Innovation León
-    from: July 2018
-    to: September 2019
+    position: Senior Technical Consultant
+    company: Finastra Inc.
+    from: February 2020
+    to: January 2021
     description: >
-      Pushing efforts to open (and work with) data in the city. Helping the city with trainings for digital jobs, including programming courses on Python and web development.
+      Configured existing applications in a micro-service architecture and support maintenance, technical change implementation, 
+      and improvements in existing applications for our clients.
+      Supported web service API frameworks and support ongoing Implementations.
+      Collaborated with engineering and QA teams to help drive best practices and work towards issue resolution.
+      Evaluated implemented and managed business entitlements and back-end interfaces w/ 3rd party systems.
+
+      Oversee systems analysis by providing recommendations and assessments.
+      Responsible for the troubleshooting, problem resolution and maintenance of operating systems, software application and systems security.
+      Designed and documented configurations and maintenance procedures.
+      Provided technical support for our Implementations, production support and product teams.
+      Maintained awareness of technology trends and issues and apply that knowledge to API application development.
   item4:
-    position: AI Consultant
-    company: NULLSEC (Startup)
-    from: July 2019
-    to: September 2019
-    description: >
-      Working as an AI consultant for NULLSEC, a computer security company focused on ethical hacking. Particularly helping in the development of NullRansom, an analyzer-debugger software with the purpose of filtering TCP protocol requests, preventing preventively being targeted by malware and ransomware viruses.
-    link: http://www.nullsec.site
+    position: Tools Provisioning Engineer
+    company: Reed Elsevier Shared Services Philippines Inc.
+    from: July 2018
+    to: February 2020
+    description: |
+      Managing a queue of requests from TIO and Development teams. Worked to SLA and OLA measures to ensure the best possible response to stakeholder requests
+      Created AWS (Cloud) accounts, in line with agreed TIO and Elsevier standards. Provisioning access to standard enterprise systems and tools (maintenance and removal of access in line with leavers requests).
+      Effective license management and reporting for all Enterprise tools in scope. Management of Cloud Health, to include standardized reporting. Worked closely with the Tools Provisioning manager and team 
+      to deploy, maintain and update Enterprise tools and access in a consistent and standard manner. Monitored the penetration of Enterprise tools in line with TIO and Elsevier policy, reporting against none compliance
+      Worked with Product aligned infrastructure teams to assist with one off and bulk deployment of the tools to their environments (including migration from previous tools)
+      Provided assistance to new stakeholders integrating the tools
   item3:
-    position: Lead ML Engineer
-    company: Omdena
-    from: May 2019
-    to: July 2019
-    description: >
-      Lead ML engineer in Omdena's collaborative tree identification challenge to prevent fire outbursts. Contributed with the models developed and the data preprocessing (we develped a Python package for it).
-    link: https://medium.com/omdena/building-ai-for-good-by-the-people-for-the-people-d98ad78b5001
+    position: Systems Administrator
+    company: MNL OP Inc - Rakuten
+    from: October 2017
+    to: July 2018
+    description: |
+      Maintained program which is used to manage ID data, knowledge data, Backup data of CRM tools such as Zendesk.
+      Regulated the server and network device which is implemented in the Philippine branch to provide stable and secure environment to our helpdesk.
+      Proposed some improvement points, system issue of our supported system through the help desk operations.
+      Administered the Zendesk through REST API, Curl, Ruby and Python as well as other systems such as VMWare, VDI, VPN and Active Directory for Rakuten Support.
+      Built programs in .Net, VBA Macro, Javascript, Angular.JS, Python and Ruby to optimize the reporting tasks of the Support Management Group.
+      Created Python script and scheduled task to optimize the routine tasks on handling Big data such as XP2 or Exchange Platform.
+      Administered the design of the Help Center and optimize the theming and search function.
   item2:
-    position: Jr. Python Software Developer
-    company: CloudLinux
-    from: February 2019
-    to: May 2019
+    position: Part Time IT Instructor
+    company: STI Munoz EDSA
+    from: June 2016
+    to: October 2017
     description: >
-      In charge of building automation solutions with Python. The tech stack used includes Scrapy, Luigi, requests, and MongoDB.
+      Taught in discipline areas in Computer Engineering, Mathematics and Information Technology. As such, the instructor is expected to plan, organize, and teach in a manner that encourages personality development in harmony with the school’s “Angat Estudyante” values.
+      Promoted and directed successful student learning in keeping with the learning-centered values and goals of the school.
+      Prepared class sessions and assignments to help students grasp course content and how it integrates with overall student learning outcomes for the course
+      Taught courses according to the STI Coursewares and in accordance with defined course standards and outcomes.
+      Created a learning environment that encourages student involvement and participation.
+      Submitted course grades to the Registrar by the assigned date.
+      Provided ample periods of time for counseling and mentoring students in matters related to academic success, life goals, and thesis development.
+      Developed and administered pre and post tests for each class taught, submitting results to the Department Head as requested at the end of each semester
+      Provided professional development and growth according to personal needs and certification requirements.
+      Conducted student evaluations which are administered near the end of each semester.
   item1:
-    position: AI Research Assistant
-    company: Research Center in Mathematics (CIMAT A.C.)
-    from: February 2018
-    to: February 2019
+    position: L2 Software Engineer
+    company: IBM Solutions Delivery Inc
+    from: March 2016
+    to: August 2017
     description: >
-      On charge of doing research and building neural networks for computer vision problems, focused on applications and solutions for real industry issues. Deployed trained models to production.
-  reference: https://rodolfoferro.xyz/resume/
+      This role specializes in performing and enabling remote technical support of IBM software, hardware and solutions specifically the Lotus Domino and Notes Software. 
+      Provides technical support assistance to clients and/or IBM field support (SSRs) using problem determination/problem source identification skills on the following area:
+      Domino server administration/troubleshooting.
+      Adminp/Archiving/Policies/ID Vault.
+      Database/Maintenance/DBMT/DAOS/Directory Catalogs.
+      Security (Keys & Certificates).
+      Installation/Configuration/Upgrade/Migration.
+      Replication/Clusters/Monitoring/DDM.
+      Server Crash/Hang/Performance - Windows/UNIX/iSeries or AS400.
+      Platforms.
+      Transactional logging.
+      SSL/TLS.
+      SSO/SAML/Federation.
+      Directory Assistance/LDAP.
+      Uses technical and negotiation skills in collaboration with other support operations/organizations to prioritize and diagnose problems to resolution. 
+      Communicates action plans to the client or IBM representative as appropriate. 
+      Recommends and implements new or improvements to existing technical support tools, procedures, and processes. 
+      May provide training for and mentor others on the team. Contributes to department attainment of organizational objectives and high client satisfaction.
 
 
 # Education section
 education:
   item1:
-    institution: Artificial Intelligence CONACYT Consortium – CIMAT A.C.
-    program: Winter School on Artificial Intelligence
-    description: Attendee to workshops on optimization, deep learning and reinforcement learning. Event organized by the National Consortium on Science and Technology in Mexico.
-    from: February 2019
-    to: February 2019
+    institution: Polytechnic University of the Philippines
+    program: Bachelor of Science in Computer Engineering
+    description: >
+      Computer Engineering is a four-year degree program that deals with the study of computer systems. 
+      The curriculum covers both software and hardware and develops the student's ability to analyze computer systems, designs, 
+      construction of electronic equipment and its peripherals. Since computer science is directed to the theory and technology of computation,
+      the curriculum does not specialize along traditional lines that divide hardware and software, systems and applications, or theory and experiment.
+      Rather, a unified approach to the design and analysis of computers and of computing structures is employed. 
+      This background prepares the student for placements as computer engineers in government industry. 
+      It also qualifies them for related job with computer manufacturers and consulting firms as systems programmers as well
+      as application programmers with scientific, research, and business organizations. 
+      The ethical considerations with respect to the profession is an important component of the program of study.
+    from: June 2006
+    to: March 2012
+    reference: https://www.pup.edu.ph/ce/BSCOE
   item2:
-    institution: University of Guanajuato / CIMAT A.C.
-    program: Bachelor of Mathematics
-    description: Major in Mathematics with Mathematical Computing as terminal area.
-    from: August 2011
-    to: July 2018
-  item3:
-    institution: Harvard University
-    program: Summer Internship – Adapting machine learning techniques for chemistry problems.
-    description: Worked on a project to calibrate and predict molecular properties using Gaussian processes.
-    from: June 2017
-    to: August 2017
-  reference: https://rodolfoferro.xyz/resume/
-
+    institution: Tinajeros National High School
+    program: High School
+    from: June 2002
+    to: March 2006
 
 # Community section:
 community:
   item0:
-    institution: Omdena
-    program: Community Builder
-    description: "Selected as a community builder at Omdena due to exemplary performance in their AI challenge on the tree identification challenge to prevent fire outbursts."
+    institution: PythonPH
+    program: Member
+    description: >
+      We are PythonPH, a community in the Philippines for enthusiasts and users of the Python programming language. Our aim is to show that Python has something for everyone: from hobbyists, to educators, to professionals. More info: http://python.ph/
     from: September 2019
     to: Present
-    link: https://omdena.com
+    link: hhttps://www.facebook.com/groups/pythonph/about
   item1:
-    institution: Future Lab
-    program: Co-founder and Coordinator
-    description: "Co-founder and coordinator of Future Lab, a community of tech developers for the future. We maily work under three axis: a) Develop awesome tech based projects, b) Share knowledge with the community, and c) Networking with other communities. As a member of Future Lab I have participated on big events such as Talent Land with an AI talk."
-    from: April 2017
+    institution: Archangel's Journey Choir
+    program: Choir President and Coordinator
+    description: Responsible for group formation activities and aiding the Musical Director together with the whole committee on decision making.
+    from: September 2005
     to: Present
-    link: https://futurelab.mx
+    link: https://www.facebook.com/ajcintegritas
   item2:
-    institution: GitHub Education
-    program: GitHub Campus Experts Program
-    description: Mexican member of the GitHub Campus Experts Program, encouraging to empower other student communities. I also serve as a mentor in different events such as Startup Weekends, hackathons, innovation events, etc.
-    from: October 2017
+    institution: Diocese of Kalookan Grand Chorale
+    program: Member
+    from: February 2007
     to: Present
-    link: https://githubcampus.expert/RodolfoFerro/
+    link: https://www.facebook.com/pages/Roman-Catholic-Diocese-of-Kalookan/135879306443239
   item3:
-    institution: Clubes de Ciencia México
-    program: Guanajuato Comitee Member and Instructor
-    description: Co-organizer of the intensive one-week summer science workshops of Clubes de Ciencia México in Guanajuato. Besides organizing, I have participated teaching science workshops (in particular a physics workshop, based on a Nobel Prize design, and artificial intelligence workshops) for high school and undergrad students.
-    from: January 2015
+    institution: Malabon Musicians' Alliance
+    program: Member
+    from: January 2009
     to: Present
-    link: https://www.clubesdeciencia.mx
   item4:
-    institution: Google Programs
-    program: Google Student Ambassador and GDG
-    description: Served as a Google Student Ambassador Latam for the University of Guanajuato, empowering the student community with Googleness and Google technologies to make their life easier. Currently helping the GDG León with tech talks and workshops about AI as a core member of the team. Do cool things that matter.
-    from: August 2014
-    to: July 2015
-    link: https://www.meetup.com/es/GDGLeon/
-  reference: https://rodolfoferro.xyz/resume/
+    institution: Luminus
+    program: Vocalist and Songwriter
+    from: March 2013
+    to: Present
+    link: https://www.facebook.com/LuminusPH
+  reference: https://rojpadida.herokuapp.com/resume/
 
 
 
@@ -157,25 +197,32 @@ tools:
   # Consider that the following are fa icons:
   #   https://fontawesome.com/icons?d=gallery&s=brands
   - python
-  - markdown
-  - git-alt
+  - bitbucket
+  - gitlab
   - github
   - docker
-  - digital-ocean
-  - google
-  - google-drive
-  - slack
-  - trello
-  - apple
-  - linux
-  - raspberry-pi
+  - jira
+  - confluence
+  - aws
+  - html5
+  - css3
+  - js
+  - itunes-note
+  - PostgreSQL
 extra_skills:
   # - Facebook Messenger, Telegram, and SMS bots
   - Web scraping and web automation
-  - APIs and web development, MongoDB
+  - APIs and web development, MongoDB, PostgreSQL
   - Image processing and computer vision
   - Machine learning and deep learning
-  - Several Python packages – Flask, NumPy, matplotlib, TensorFlow, etc.
+  - Several Python packages – Flask, NumPy, Matplotlib, TensorFlow, etc.
+  - Ruby on  Rails
+  - Databases - PostgreSQL, MySQL and MongoDB
+  - Teach Voice Lessons
+  - Voice Recording
+  - Songwriting
+  - Music Arranging
+  - Choral Performances
 
 
 # Talks and workshops section

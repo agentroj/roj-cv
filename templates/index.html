@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="A simple resume template built with Flask, based on Start Bootstrap resume template.">
-  <meta name="author" content="Rodolfo Ferro <rodolfoferroperez@gmail.com>">
+  <meta name="author" content="Rogelio Padida Jr. <rojpadida@gmail.com>">
 
   <title>Portfolio - {{ data.profile.first_name }} {{ data.profile.last_name }}</title>
 
@@ -53,15 +53,19 @@
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#community">Community</a>
         </li>
+        <!--
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#workshops">Workshops</a>
         </li>
+        -->
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
         </li>
+        <!--
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
         </li>
+        -->
       </ul>
     </div>
   </nav>
@@ -211,41 +215,6 @@
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="workshops">
-      <div class="w-100">
-        <h2 class="mb-5">Talks &amp; Workshops</h2>
-        <p>Some of my most recent talks and workshops are...</p>
-        <ul class="fa-ul mb-0">
-          {% for _, item in data.workshops.items() %}
-          <li>
-            {% if _ != 'reference' %}
-            <i class="fa-li fa fa-shapes text-info"></i>
-            <strong>{{ item.event }}</strong>
-            {% if item.material != None %}
-            <sup><a href='{{ item.material }}' target="_blank" class="badge badge-pill badge-primary">
-              Material <i class="fa fa-external-link-alt text-light"></i>
-            </a></sup>
-            {% endif %}
-            {% if item.link != None %}
-            <sup><a href='{{ item.link }}' target="_blank" class="badge badge-pill badge-danger">
-              Event site <i class="fa fa-external-link-alt text-light"></i>
-            </a></sup>
-            {% endif %}
-            <br> {{ item.workshop }} 
-            {% endif %}
-          </li>
-          {% endfor %}
-        </ul>
-        {% if 'reference' in data.workshops.keys() %}
-        <br><br>
-        <p>(More talks have happened between those dates <i>–most of them about AI–</i>, I'm only adding the most relevant ones in that period of time.)</p>
-        <p>For a detailed reference about this section, please visit <a href="{{ data.workshops.reference }}" target="_blank">this link</a>.</p>
-        {% endif %}
-      </div>
-    </section>
-
-    <hr class="m-0">
-
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">
       <div class="w-100">
         <h2 class="mb-5">Projects</h2>
@@ -282,24 +251,6 @@
     </section>
 
     <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
-      <div class="w-100">
-        <h2 class="mb-5">Awards &amp; Certifications</h2>
-        <ul class="fa-ul mb-0">
-          {% for item in data.awards %}
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            {{ item }}</li>
-          {% endfor %}
-        </ul>
-      </div>
-    </section>
-    
-    <div class="container">
-    <p class="small float-right">This Flask template was built with <i class="fas fa-heart text-danger"></i> by <a href="https://rodolfoferro.xyz" target="_blank">Rodolfo Ferro</a>, under a MIT License.</p>
-    </div>
-  </div>
 
   <!-- Bootstrap core JavaScript -->
   <script src="static/vendor/jquery/jquery.min.js"></script>
