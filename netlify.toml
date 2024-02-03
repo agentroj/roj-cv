@@ -1,6 +1,7 @@
 [build]
+  command = "pip install -r requirements.txt && python app.py"
   publish = "dist/"
-  command = "npm run build"  # Replace with your build command if needed
 
-[context.production]
-  command = "docker run -p 5000:5000 rojpadida/roj-cv"
+[context.production.environment]
+  FLASK_ENV = "production"
+  FLASK_APP = "app.py"
