@@ -8,7 +8,8 @@ app.config['JSON_SORT_KEYS'] = False
 
 @app.route('/')
 def index():
-    website_data = yaml.load(open('_config.yaml'))
+    with open('_config.yaml', 'r', encoding='utf-8') as config_file:
+        website_data = yaml.load(config_file, Loader=yaml.FullLoader)
 
     return render_template('index.html', data=website_data)
 
