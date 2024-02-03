@@ -1,1 +1,1 @@
-web: gunicorn roj-cv:app
+web: gunicorn -b :$PORT roj-cv:app
