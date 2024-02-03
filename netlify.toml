@@ -1,5 +1,5 @@
 [build]
-  command = "docker build -t roj-cv ."
+  command = "docker build -t rojpadida/roj-cv . "
   publish = "dist/"
 
 [context.production.environment]
