@@ -1,1 +1,2 @@
-web: gunicorn roj-cv:app
+web: gunicorn 
+app:app
