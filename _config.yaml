@@ -18,7 +18,7 @@ profile:
 
 # Social section
 social:
-  website: https://rojpadida.herokuapp.com
+  website: https://rojpadida.pythonanywhere.com/
   github: https://github.com/agentroj/
   twitter: https://twitter.com/Rojpadida/
   linkedin: https://www.linkedin.com/in/rojpadidajr
@@ -28,10 +28,17 @@ social:
 
 # Experience section
 experience:
-  item10:
+  item14:
+    position: Online AI Instructor
+    company: Kredo IT Abroad Inc
+    from: October 2020
+    to: February 2024
+    description: >
+      Taught AI Standard courses remotely to Japanese students which includes basic Python, OOP, Flask, MySQL, Docker and Git.
+  item13:
     position: Technology Consultant IV
     company: DXC Technology
-    from: October 2022
+    from: January 2023
     to: November 2023
     description: >
         • Design, develop, and execute business and technical software solutions using the latest technologies, with a primary focus on Python, Flask, REST API, Django, PostgreSQL, Docker, AWS, Microsoft Azure, and MongoDB.<br>
@@ -41,10 +48,53 @@ experience:
         • Communicate effectively with clients, understanding their requirements and translating them into technical solutions.<br>
         • Interact with Client-facing colleagues, including Business Analysts and Project Managers, to gain a deep understanding of the business environment, technical context, and organizational strategic direction.<br>
         • Stay current on emerging tools, techniques, and technologies in the field of software development. Proactively seek opportunities for professional development to enhance skills and stay ahead of industry trends.<br>
-      
     tech_stack: >
-      Python, Django, REST API, NumPy, Pandas, Microsoft Azure, Docker, Azure DevOps, Django REST Framework, PostgreSQL
-
+      Python, Django, REST API, NumPy, Pandas, Microsoft Azure, Docker, Azure DevOps, Django REST Framework, PostgreSQL<br>
+  item12:
+    position: Project Based - Senior Python Developer
+    company: CarsFast
+    from: October 2022
+    to: July 2023
+    description: >
+        •  Build scalable backend systems and APIs and integrate to front-end applications.<br>
+        • Designed and developed scalable web applications with Python, Django, Apache Superset, PostgreSQL, GitLab, Docker, Rest API, and Django REST Framework.<br>
+        • Collaborated with cross-functional teams to identify and solve complex business problems.<br>
+        • Wrote clean, modular, and testable code using best practices.<br>
+        • Supported the entire application lifecycle (concept, design, test, release, and support).<br>
+        • Ensured reliability, performance, and security of the system.<br>
+        • Deliver top-quality code and work with talented teammates.<br>
+        • Prototype to quickly test out new ideas and experiments.<br>
+        • Follow the best practices in software development for agile environments.<br>
+        • Contribute back to common tooling/infrastructure that accelerates client onboarding.<br>
+        • Work in a remote environment with less supervision.<br>
+    tech_stack: >
+      Python, Django, REST API, NumPy, Pandas, Microsoft Azure, Docker, Azure DevOps, Django REST Framework, PostgreSQL<br>
+  item11:
+    position: Freelance Senior Python Developer
+    company: First Performance
+    from: October 2022
+    to: March 2023
+    description: >
+        • Build scalable backend systems and APIs and integrate to front-end applications.<br>
+        • Deliver top-quality code and work with talented teammates.<br>
+        • Prototype to quickly test out new ideas and experiments.<br>
+        • Follow the best practices in software development for agile environments.<br>
+        • Contribute back to common tooling/infrastructure that accelerates client onboarding.<br>
+        • Work in a remote environment with less supervision.<br>
+    tech_stack: >
+      Python, Django, REST API, NumPy, Pandas, Microsoft Azure, Docker, Azure DevOps, Django REST Framework, PostgreSQL<br>
+  item10:
+    position: Freelance Software Engineer in Test
+    company: Kasisto Inc.
+    from: April 2022
+    to: September 2022
+    description: >
+        • Highly skilled Software Engineer in Test with expertise in Python, Selenium, Java, and API Testing, ensuring robust and efficient software quality.<br>
+        • Proficient in Postman, Jenkins, and PyTest for seamless automation, regression testing, and continuous integration processes.<br>
+        • Extensive experience in implementing and optimizing AI Chatbot testing, ensuring reliable and responsive conversational interfaces.<br>
+        • Demonstrated ability to develop and execute comprehensive test plans, focusing on software reliability and performance.<br>
+    tech_stack: >
+      Python, PyTest, Selenium. Java<br>
   item9:
     position: Project Coordinator
     company: Rising Tide Digital
@@ -79,16 +129,24 @@ experience:
       • Collaborate with QA testers to identify and solve issues during testing Phase.<br> 
       
     tech_stack: >
-      Python, Django, REST API, NumPy, Pandas, AWS, Docker, JIRA,
-      Confluence, Django REST Framework, PostgreSQL, Postman, Selenium, Robot
+      Python, Django, REST API, NumPy, Pandas, AWS, Docker, JIRA,<br>
+      Confluence, Django REST Framework, PostgreSQL, Postman, Selenium, Robot<br>
   item7:
-    position: Online AI Instructor
-    company: Kredo IT Abroad Inc
-    from: October 2020
-    to: July 2021
+    position: Part Time IT Instructor
+    company: STI Munoz EDSA
+    from: June 2016
+    to: November 2021
     description: >
-      Taught AI Standard courses remotely to Japanese students which includes basic Python, OOP, Flask, MySQL, Docker and Git.
-
+      Taught in discipline areas in Computer Engineering, Mathematics and Information Technology. As such, the instructor is expected to plan, organize, and teach in a manner that encourages personality development in harmony with the school’s “Angat Estudyante” values.<br> 
+      Promoted and directed successful student learning in keeping with the learning-centered values and goals of the school.<br> 
+      Prepared class sessions and assignments to help students grasp course content and how it integrates with overall student learning outcomes for the course<br> 
+      Taught courses according to the STI Coursewares and in accordance with defined course standards and outcomes.<br> 
+      Created a learning environment that encourages student involvement and participation.<br> 
+      Submitted course grades to the Registrar by the assigned date.<br> 
+      Provided ample periods of time for counseling and mentoring students in matters related to academic success, life goals, and thesis development.<br> 
+      Developed and administered pre and post tests for each class taught, submitting results to the Department Head as requested at the end of each semester<br> 
+      Provided professional development and growth according to personal needs and certification requirements.<br> 
+      Conducted student evaluations which are administered near the end of each semester.<br> 
   item6:
     position: Senior Technical Consultant
     company: Finastra
@@ -122,7 +180,7 @@ experience:
   item5:
     position: Tools Provisioning Engineer
     company: Reed Elsevier Shared Services Philippines Inc.
-    from: October 2017
+    from: July 2018
     to: February 2020
     description: |
       • Creation of AWS (Cloud) accounts, in line with agreed TIO and Elsevier standards<br> 
@@ -147,10 +205,10 @@ experience:
       REST API, NumPy, Pandas, AWS, Docker, JIRA, Confluence, Django REST
       Framework, PostgreSQL, PowerBI, Excel, Matplotlib.
   item4:
-    position: Part Time IT Instructor
-    company: STI Munoz EDSA
-    from: June 2016
-    to: December 2021
+    position: Freelance Software Developer
+    company: Rakuten 
+    from: Oct 2017
+    to: Jun 2018
     description: >
       Taught in discipline areas in Computer Engineering, Mathematics and Information Technology. As such, the instructor is expected to plan, organize, and teach in a manner that encourages personality development in harmony with the school’s “Angat Estudyante” values.<br> 
       Promoted and directed successful student learning in keeping with the learning-centered values and goals of the school.<br> 
@@ -162,6 +220,9 @@ experience:
       Developed and administered pre and post tests for each class taught, submitting results to the Department Head as requested at the end of each semester<br> 
       Provided professional development and growth according to personal needs and certification requirements.<br> 
       Conducted student evaluations which are administered near the end of each semester.<br> 
+    tech_stack: >
+      Python, Django, Ruby, Ruby on Rails, CSS, HTML, XML, JSON, Javascript, REST API, <br>
+      NumPy, Pandas, AWS, Docker, JIRA, Confluence, Django REST Framework, PostgreSQL, PowerBI, Excel, Matplotlib. <br>
   item3:
     position: L2 Software Engineer
     company: IBM Solutions Delivery Inc
